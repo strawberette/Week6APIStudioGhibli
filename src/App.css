@@ -1,38 +1,97 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  text-align: center;
+  color: #090909;
+  text-shadow: #577590;
+  font-size: 35pt;
+}
+.hero {
+  width: 700px;
+  margin: auto;
+  border-radius: 20px;
+  border: solid 2px;
+  border-color: #577590;
+}
+.rt {
+  width: 32px;
+  vertical-align: middle;
+  margin-left: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.thumbnail {
+  width: 100px;
+  vertical-align: middle;
+  margin: 0;
+  border-radius: 10px;
+  border: solid 2px;
+  border-color: #577590;
+}
+.movieLink {
+  /* margin-left: 100px; */
+  color: #577590;
+  font-size: 20pt;
+}
+.movieLink:hover {
+  color: #f3722c;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px;
+}
+.inactive {
+  display: none !important;
+}
+.filmDetails {
+  width: 80%;
+  display: flex;
+
+  flex-direction: column;
+  margin: 0 auto;
+}
+.filmCover {
+  width: 500px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+button {
+  align-self: center;
+  width: 100px;
+  font-size: 16pt;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  .hero {
+    width: 300px;
   }
-  to {
-    transform: rotate(360deg);
+  li {
+    margin: 4px;
+  }
+  .movieLink {
+    font-size: 12pt;
+    margin-left: 0;
+  }
+  .rt {
+    width: 16px;
+    vertical-align: middle;
+    margin-left: 0px;
+  }
+  .thumbnail {
+    justify-self: left;
+  }
+  ol {
+    padding-inline-start: 4px;
+  }
+  .filmCover {
+    width: 300px;
   }
 }
