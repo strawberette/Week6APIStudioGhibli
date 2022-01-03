@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Week6APIStudioGhibli/static/css/main.933e2ba9.css",
+    "main.js": "/Week6APIStudioGhibli/static/js/main.762ae9fb.js",
+    "static/js/787.098972f3.chunk.js": "/Week6APIStudioGhibli/static/js/787.098972f3.chunk.js",
+    "index.html": "/Week6APIStudioGhibli/index.html",
+    "main.933e2ba9.css.map": "/Week6APIStudioGhibli/static/css/main.933e2ba9.css.map",
+    "main.762ae9fb.js.map": "/Week6APIStudioGhibli/static/js/main.762ae9fb.js.map",
+    "787.098972f3.chunk.js.map": "/Week6APIStudioGhibli/static/js/787.098972f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.933e2ba9.css",
+    "static/js/main.762ae9fb.js"
+  ]
+}
